@@ -117,9 +117,9 @@ import Manea_Branches from "./pages/manea_Branches";
 import Mouwasat_Branches from "./pages/mouwasat_Branches";
 
 // Images:
-import habibImage from "/Users/basseloob/Desktop/MERN_APIS/typescript-Hospitals-Schedules/client/src/pages/Habib_Hospital.png";
-import ManeaImage from "/Users/basseloob/Desktop/MERN_APIS/typescript-Hospitals-Schedules/client/src/pages/Almanea.webp";
-import mouwasatImage from "/Users/basseloob/Desktop/MERN_APIS/typescript-Hospitals-Schedules/client/src/pages/Mouawasat.jpeg";
+import habibImage from "./pages/Habib_Hospital.png";
+import ManeaImage from "./pages/Almanea.webp";
+import mouwasatImage from "./pages/Mouawasat.jpeg";
 
 function HomePage() {
   const [selectedImage, setSelectedImage] = useState(null);
