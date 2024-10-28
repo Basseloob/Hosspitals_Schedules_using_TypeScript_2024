@@ -36,8 +36,9 @@ const importData = async () => {
     // await get_Habib_Data(habib_KBR_Family_Url);
     // await get_Habib_Data(habib_KBR_Nephro_Url);
     // await get_Habib_Data(habib_KBR_Im_Url);
-    await get_Habib_Data(habib_KBR_Cardio_Url);
-    await get_Habib_Data(habib_KBR_Endo_Url);
+    // await get_Habib_Data(habib_KBR_Cardio_Url);
+    // await get_Habib_Data(habib_KBR_Endo_Url);
+    await get_Habib_Data(habib_KBR_Neurology_Url);
   } catch (err) {
     console.log(err);
   }
