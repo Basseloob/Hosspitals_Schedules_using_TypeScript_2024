@@ -9,7 +9,7 @@ import StealthPlugin from "puppeteer-extra-plugin-stealth";
 puppeteer.use(StealthPlugin());
 
 // import habib_Doctors_Model from "../models/habib_Model";
-import habib_Model from "../models/habib_Model";
+import habib_Model from "../models/habib_Doctors_Model";
 
 const delay = (time: number) => {
   return new Promise((resolve) => setTimeout(resolve, time));

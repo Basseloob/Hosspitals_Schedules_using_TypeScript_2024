@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-const habib_Hospitals_Schema = new mongoose.Schema({
+// const habib_Hospitals_Schema = new mongoose.Schema({
+const habib_Doctors_Schema = new mongoose.Schema({
   Img: {
     type: String,
     required: true,
@@ -28,11 +29,16 @@ const habib_Hospitals_Schema = new mongoose.Schema({
   ],
 });
 
-const habib_Model = mongoose.model(
-  // "habib_Doctors_Schema",
-  "habib_Hospitals_Schema",
-  habib_Hospitals_Schema
+// const habib_Model = mongoose.model(
+//   // "habib_Doctors_Schema",
+//   "habib_Hospitals_Schema",
+//   habib_Hospitals_Schema
+// );
+const habib_Doctors_Model = mongoose.model(
+  "habib_Doctors_Schema",
+  habib_Doctors_Schema
 );
 
 // module.exports = habib_Model;
-export default habib_Model;
+// export default habib_Model;
+export default habib_Doctors_Model;

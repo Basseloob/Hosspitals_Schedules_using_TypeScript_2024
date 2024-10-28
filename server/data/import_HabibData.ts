@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import get_Habib_Data from "../puppeteer/habib_Puppeteer";
-import habib_Model from "../models/habib_Model";
+import habib_Model from "../models/habib_Doctors_Model";
 
 const DB: string =
   "mongodb://basseloob:Basilpsp9111@ac-7hgzxvl-shard-00-00.nnbcxyh.mongodb.net:27017,ac-7hgzxvl-shard-00-01.nnbcxyh.mongodb.net:27017,ac-7hgzxvl-shard-00-02.nnbcxyh.mongodb.net:27017/?replicaSet=atlas-x2jk5t-shard-0&ssl=true&authSource=admin";
